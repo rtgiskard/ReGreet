@@ -124,7 +124,7 @@ impl AsyncComponent for Greeter {
                 background { set_filename: model.config.get_background() },
 
                 #[template_child]
-                clock_frame {
+                clock_box {
                     model.clock.widget(),
                 },
 
